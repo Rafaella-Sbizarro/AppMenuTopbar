@@ -1,4 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Arquivo"
+        android:icon="@drawable/baseline_archive_"
+        android:id="@+id/mArquivo"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:title="Change"
+        android:icon="@drawable/baseline_change_circle_"
+        android:id="@+id/mChange"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:title="Delete"
+        android:icon="@drawable/baseline_delete_"
+        android:id="@+id/mDelete"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:title="Search"
+        android:icon="@drawable/baseline_search_"
+        android:id="@+id/mSearch"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:title="Exit"
+        android:icon="@drawable/baseline_exit_to_app_"
+        android:id="@+id/mExit"
+        app:showAsAction="ifRoom"/>
+
+
+
+
+
 
 </menu>
